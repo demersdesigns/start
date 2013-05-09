@@ -1,0 +1,12 @@
+var linkList = [
+	{
+		"sites":[
+			{"title" : "test", "url" : "http://www.google.com"}
+		]
+	},
+	{
+		"bills":[
+			{"title" : "billsTest", "url" : "http://www.bills.com"}
+		]
+	}
+];
