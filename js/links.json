@@ -1,13 +1,13 @@
 {
-  "sites":[
+	"sites":[
 		{"title": "Google Calendar", "url": "http://calendar.google.com"},
 		{"title": "Dreamhost Login", "url": "https://panel.dreamhost.com/"},
 		{"title": "Google Analytics", "url": "http://www.google.com/analytics"},
 		{"title": "Portfolio Site", "url": "http://www.demersdesigns.com"},
 		{"title": "Evernote", "url": "https://www.evernote.com/Login.action.com"},
 		{"title": "StarFun Theater Camp", "url": "http://www.starfuntheatercamp.com"}
-  ],
-  "bills": [
+	],
+	"bills": [
 		{"title": "Sovereign Bank", "url": "https://drob.sovereignbank.com/cscobgss/Satellite?…tail&leng=en_US&empr=WCSUSAPublica&canal=CSUSAPub"},
 		{"title": "NMTMW", "url": "https://www.nmtw.org"},
 		{"title": "Manilla", "url": "http://www.manilla.com"},
@@ -26,8 +26,8 @@
 		{"title": "Sears", "url": "https://www.citibank.com/us/cards/srs/"},
 		{"title": "Best Buy", "url": "https://www.hrsaccount.com/hrs/ecare?cmd_Redirect=Home&acctOrg=169&logoCode=000&chkCk=check"},
 		{"title": "Geico", "url": "http://geico.com"}
-  ],
-  "clicks": [
+	],
+	"clicks": [
 		{"title": "FitBit", "url": "https://www.fitbit.com/login"},
 		{"title": "Strava", "url": "http://strava.com"},
 		{"title": "LoseIt", "url": "http://www.loseit.com"},
@@ -36,14 +36,14 @@
 		{"title": "Forrst", "url": "http://forrst.com/"},
 		{"title": "CSS-Tricks Forums", "url": "http://css-tricks.com/forums/discussions"},
 		{"title": "Facebook", "url": "http://www.facebook.com"}
-  ],
-  "tunes": [
+	],
+	"tunes": [
 		{"title": "Rdio", "url": "http://www.rdio.com"},
 		{"title": "Grooveshark", "url": "http://www.grooveshark.com"},
 		{"title": "Pandora", "url": "http://www.pandora.com"},
 		{"title": "Last.fm", "url": "http://www.last.fm"}
-  ],
-  "interest": [
+	  ],
+	"interest": [
 		{"title": "Craigslist", "url": "http://boston.craigslist.org/"},
 		{"title": "MBTA", "url": "http://www.mbta.com/"},
 		{"title": "City of Somerville", "url": "http://www.somervillema.gov/index.cfm/"},
