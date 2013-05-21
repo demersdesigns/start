@@ -1,6 +1,6 @@
-var data = {
-    "sites": [
-	    {"title": "Google Calendar", "url": "http://calendar.google.com"},
+{
+    "sites":[
+        {"title": "Google Calendar", "url": "http://calendar.google.com"},
 	    {"title": "Dreamhost Login", "url": "https://panel.dreamhost.com/"},
 	    {"title": "Google Analytics", "url": "http://www.google.com/analytics"},
 	    {"title": "Portfolio Site", "url": "http://www.demersdesigns.com"},
@@ -52,4 +52,4 @@ var data = {
 			{"title": "Alltop", "url": "http://www.alltop.com/"},
 			{"title": "Daylife", "url": "http://www.daylife.com/"}
     ]
-}
+  }
