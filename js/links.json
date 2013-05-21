@@ -42,7 +42,7 @@
 		{"title": "Grooveshark", "url": "http://www.grooveshark.com"},
 		{"title": "Pandora", "url": "http://www.pandora.com"},
 		{"title": "Last.fm", "url": "http://www.last.fm"}
-	  ],
+	],
 	"interest": [
 		{"title": "Craigslist", "url": "http://boston.craigslist.org/"},
 		{"title": "MBTA", "url": "http://www.mbta.com/"},
