@@ -18,10 +18,12 @@
 				<span class="ring" aria-hidden="true" data-icon="&#x72;"></span>
 			</div>
 			<div class="link_wrapper" data-bind="foreach: links">
-				<h2 data-bind="text: title"></h2>
-				<ul data-bind="foreach: urls">
-					<li class="item"><a data-bind="text: title, attr: { href: url, title: title }"></a></li>
-				</ul>
+				<div class="link_category">
+					<h2 data-bind="text: title"></h2>
+					<ul data-bind="foreach: urls">
+						<li class="item"><a data-bind="text: title, attr: { href: url, title: title }"></a></li>
+					</ul>
+				</div>
 			</div>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

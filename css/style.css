@@ -266,9 +266,10 @@ h2 {
   font-size: 1.5625em;
   line-height: 1; }
 
-.link_wrapper {
+.link_category {
   float: left;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2em; }
 
 ul, li {
   margin: 0;
