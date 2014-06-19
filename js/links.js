@@ -39,6 +39,7 @@ function linksModel(){
         {"title": "ING Direct", "url": "http://home.ingdirect.com/"},
         {"title": "USAA", "url": "https://www.usaa.com"},
         {"title": "Sears", "url": "https://www.citibank.com/us/cards/srs/"},
+        {"title": "Macys", "url": "https://www.macys.com/mymacyscard"},
         {"title": "Best Buy", "url": "https://www.accountonline.com/cards/svc/LoginGet.do?siteId=PLCN_BESTBUY"},
         {"title": "Geico", "url": "http://geico.com"}
       ]
