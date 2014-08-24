@@ -1,9 +1,6 @@
-function linksModel(){
-  self = this;
-  
-  self.links = [
-    { title: "My Sites",
-      urls: [
+{ "links": [
+    { "title": "My Sites",
+      "urls": [
         {"title": "Google Calendar", "url": "http://calendar.google.com"},
         {"title": "Dreamhost Login", "url": "https://panel.dreamhost.com/"},
         {"title": "Google Analytics", "url": "http://www.google.com/analytics"},
@@ -12,16 +9,16 @@ function linksModel(){
         {"title": "StarFun Theater Camp", "url": "http://www.starfuntheatercamp.com"}
       ]
     },
-    { title: "News and Such",
-      urls: [
+    { "title": "News and Such",
+      "urls": [
         { "title": "Craigslist", "url": "http://boston.craigslist.org/"},
         { "title": "Framingham Patch", "url": "http://framingham.patch.com/"},
         { "title": "Boston Globe", "url": "http://boston.com"},
         { "title": "USA Today", "url": "http://usatoday.com"}
       ]
     },
-    { title: "Bills",
-      urls: [
+    { "title": "Bills",
+      "urls": [
         {"title": "Sovereign Bank", "url": "https://www.santanderbank.com/us/"},
         {"title": "NMTMW", "url": "https://www.nmtw.org"},
         {"title": "Mutual One", "url": "https://www.mutualone.com/Secure/online_banking_log_in.php"},
@@ -43,8 +40,8 @@ function linksModel(){
         {"title": "Geico", "url": "http://geico.com"}
       ]
     },
-    { title: "Frequent Clicks",
-      urls: [
+    { "title": "Frequent Clicks",
+      "urls": [
         { "title": "Facebook", "url": "http://www.facebook.com" },
         { "title": "Twitter", "url": "http://www.twitter.com" },
         { "title": "Feedly", "url": "http://www.feedly.com" },
@@ -56,11 +53,12 @@ function linksModel(){
         { "title": "GitHub", "url": "http://github.com" },
         { "title": "Forrst", "url": "http://forrst.com/" },
         { "title": "FitBit", "url": "https://www.fitbit.com/login" },
-        { "title": "Strava", "url": "http://strava.com" }
+        { "title": "Strava", "url": "http://strava.com" },
+        { "title": "CSS-Tricks Forums", "url": "http://css-tricks.com/forums/discussions" }
      ]
     },
-    { title: "Tunes",
-     urls: [
+    { "title": "Tunes",
+     "urls": [
       { "title": "Rdio", "url": "http://www.rdio.com"},
       { "title": "Songza", "url": "http://www.songza.com"},
       { "title": "Grooveshark", "url": "http://www.grooveshark.com"},
@@ -68,15 +66,15 @@ function linksModel(){
       { "title": "Last.fm", "url": "http://www.last.fm"}
      ]
     },
-    { title: "House",
-      urls: [
+    { "title": "House",
+      "urls": [
         { "title": "Houzz", "url": "http://www.houzz.com" },
         { "title": "The Kitchn", "url": "http://www.thekitchn.com/" },
         { "title": "Chow", "url": "http://www.chow.com/" }
       ]
     },
-    { title: "Let's Shop",
-     urls: [
+    { "title": "Let's Shop",
+     "urls": [
        { "title": "Huckberry", "url": "http://www.huckberry.com/"},
        { "title": "Frank and Oak", "url": "http://www.frankandoak.com/"},
        { "title": "Maxton Men", "url": "http://www.maxtonmen.com/"},
@@ -84,10 +82,8 @@ function linksModel(){
        { "title": "Jack Threads", "url": "http://jackthreads.com"},
        { "title": "Fab", "url": "http://www.fab.com/"},
        { "title": "Hautelook", "url": "http://www.hautelook.com/"},
-       { "title": "The Grommet", "url": "http://www.thegrommet.com/"},
+       { "title": "The Grommet", "url": "http://www.thegrommet.com/"}
      ]
     }
-  ];
-}
-
-ko.applyBindings(new linksModel());
+  ]
+ }
