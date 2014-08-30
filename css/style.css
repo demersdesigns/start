@@ -250,8 +250,9 @@ textarea {
 
 body {
   font-size: 100%;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: url(../img/topper.png) -85% top repeat-x, url(../img/cross_scratches.png) -55% top repeat; }
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background: #254969;
+}
 
 .container {
   margin: 0 auto;
@@ -259,10 +260,11 @@ body {
 
 h2 {
   padding-bottom: .1875em;
-  margin: 10% 3% 0;
-  border-bottom: 2px solid #00a2e0;
+  font-weight: 300;
+  margin: 10% 3% 1%;
+  border-bottom: 0;
   text-align: center;
-  color: #666;
+  color: #fff;
   font-size: 1.5625em;
   line-height: 1; }
 
@@ -281,10 +283,9 @@ li {
 
 li a {
   display: block;
-  border-bottom: 1px solid #fff;
+  border: 1px solid #fff;
   text-decoration: none;
-  color: #888;
-  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
   padding: 4%;
   text-align: center;
   margin: 0 3%; }
@@ -292,6 +293,7 @@ li a {
 @media only screen and (min-width: 768px) {
   h2 {
     font-size: 1.25em;
+    border-bottom: 1px solid #fff;
     text-align: left;
     width: 15%;
     float: left;
@@ -311,7 +313,7 @@ li a {
     float: left; }
     li a:hover {
       color: #00a2e0;
-      background: rgba(255, 255, 255, 0.5);
+      border-color: #00a2e0;
       -moz-transition: all .25s;
       -webkit-transition: all .25s;
       transition: all .25s; }
@@ -338,22 +340,37 @@ li a {
 
   .logo {
     width: 7em;
-    height: 8em;
+    height: 6.5em;
     margin: 0 auto 5%;
     cursor: pointer;
     position: relative;
-    background: url(../img/logo_bed.png) 50% 0 no-repeat; }
+    z-index: 20;
+    background: #fff }
+    .logo:after{
+    	content: "";
+			width: 7em;
+			background: #fff;
+			height: 2em;
+			position: absolute;
+			display: block;
+			bottom: -1em;
+			-webkit-transform: skewY(5deg);
+			-moz-transform: skewY(5deg);
+			transform: skewY(5deg);
+			z-index: -1;
+    }
     .logo .ring, .logo .inner {
       position: absolute;
       font-size: 5em;
-      color: #00a2e0;
+      color: #254969;
       display: inline-block;
       line-height: 0;
-      top: 10px;
+      top: 20px;
       left: 16px;
       /* Hardware acceleration FTW! */
       -webkit-transform: translateZ(0);
-      -moz-transform: translateZ(0); }
+      -moz-transform: translateZ(0); 
+      transform: translateZ(0); }
 
   @-webkit-keyframes spin {
     from {
