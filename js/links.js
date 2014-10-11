@@ -1,6 +1,6 @@
 function linksModel(){
   self = this;
-  
+
   self.links = [
     { title: "My Sites",
       urls: [
@@ -46,7 +46,6 @@ function linksModel(){
     },
     { title: "Frequent Clicks",
       urls: [
-        { "title": "Facebook", "url": "http://www.facebook.com" },
         { "title": "Twitter", "url": "http://www.twitter.com" },
         { "title": "Feedly", "url": "http://www.feedly.com" },
         { "title": "Instagram", "url": "http://www.instagram.com" },
