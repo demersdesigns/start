@@ -36,7 +36,7 @@ function linksModel(){
         {"title": "at&t Wireless", "url": "http://www.wireless.att.com/"},
         {"title": "NStar", "url": "http://www.nstaronline.com/residential/"},
         {"title": "Verizon", "url": "http://www.verizon.com/foryourhome/myaccount/ngen/upr/nlogin.aspx"},
-        {"title": "ING Direct", "url": "http://home.ingdirect.com/"},
+        {"title": "Capital One 360", "url": "https://secure.capitalone360.com"},
         {"title": "USAA", "url": "https://www.usaa.com"},
         {"title": "Sears", "url": "https://www.citibank.com/us/cards/srs/"},
         {"title": "Macys", "url": "https://www.macys.com/mymacyscard"},
