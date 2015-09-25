@@ -21,15 +21,15 @@
 				<div class="link_category">
 					<h2 data-bind="text: title"></h2>
 					<ul data-bind="foreach: urls">
-						<li class="item"><a data-bind="text: title, attr: { href: url, title: title }"></a></li>
+						<li class="item"><a target="_blank" data-bind="text: title, attr: { href: url, title: title }"></a></li>
 					</ul>
 				</div>
 			</div>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
     <script src="js/links.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
