@@ -8,7 +8,7 @@ function linksModel(){
         { "title": "Feedly", "url": "http://www.feedly.com" },
         { "title": "Instagram", "url": "http://www.instagram.com" },
         { "title": "Medium", "url": "http://www.medium.com" },
-        { "title": "Dropmark", "url": "http://http://demersdesigns.dropmark.com" },
+        { "title": "Dropmark", "url": "http://demersdesigns.dropmark.com" },
         { "title": "Pastry Box", "url": "http://the-pastry-box-project.net/" },
         { "title": "Dribbble", "url": "http://dribbble.com" },
         { "title": "Codepen", "url": "http://codepen.io/" },
