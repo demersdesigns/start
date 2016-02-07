@@ -2,6 +2,19 @@ function linksModel(){
   self = this;
 
   self.links = [
+    { title: "Frequent Clicks",
+      urls: [
+        { "title": "Twitter", "url": "http://www.twitter.com" },
+        { "title": "Feedly", "url": "http://www.feedly.com" },
+        { "title": "Instagram", "url": "http://www.instagram.com" },
+        { "title": "Medium", "url": "http://www.medium.com" },
+        { "title": "Dropmark", "url": "http://demersdesigns.dropmark.com" },
+        { "title": "Pastry Box", "url": "http://the-pastry-box-project.net/" },
+        { "title": "Dribbble", "url": "http://dribbble.com" },
+        { "title": "Codepen", "url": "http://codepen.io/" },
+        { "title": "GitHub", "url": "http://github.com" }
+     ]
+    },
     { title: "My Sites",
       urls: [
         {"title": "Google Calendar", "url": "http://calendar.google.com"},
