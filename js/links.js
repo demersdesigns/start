@@ -25,7 +25,6 @@ function linksModel(){
         {"title": "Sovereign Bank", "url": "https://www.santanderbank.com/us/"},
         {"title": "NMTMW", "url": "https://www.nmtw.org"},
         {"title": "Mutual One", "url": "https://www.mutualone.com/Secure/online_banking_log_in.php"},
-        {"title": "Finovera", "url": "http://www.finovera.com"},
         {"title": "Simple", "url": "http://www.simple.com"},
         {"title": "Mint", "url": "http://www.mint.com"},
         {"title": "Hyundai Finance", "url": "https://www.hmfusa.com/"},
@@ -41,7 +40,8 @@ function linksModel(){
         {"title": "Sears", "url": "https://www.citibank.com/us/cards/srs/"},
         {"title": "Macys", "url": "https://www.macys.com/mymacyscard"},
         {"title": "Best Buy", "url": "https://www.accountonline.com/cards/svc/LoginGet.do?siteId=PLCN_BESTBUY"},
-        {"title": "Geico", "url": "http://geico.com"}
+        {"title": "Geico", "url": "http://geico.com"},
+        {"title": "Citizens One", url: "https://citizensoneloan.fdecs.com/eCustService/"}
       ]
     },
     { title: "Frequent Clicks",
@@ -50,23 +50,17 @@ function linksModel(){
         { "title": "Feedly", "url": "http://www.feedly.com" },
         { "title": "Instagram", "url": "http://www.instagram.com" },
         { "title": "Medium", "url": "http://www.medium.com" },
-        { "title": "Svbtle", "url": "http://www.svbtle.com" },
-        { "title": "Pastry Box", "url": "http://the-pastry-box-project.net/" },
         { "title": "Dribbble", "url": "http://dribbble.com" },
         { "title": "Codepen", "url": "http://codepen.io/" },
         { "title": "GitHub", "url": "http://github.com" },
-        { "title": "Forrst", "url": "http://forrst.com/" },
         { "title": "FitBit", "url": "https://www.fitbit.com/login" },
         { "title": "Strava", "url": "http://strava.com" }
      ]
     },
     { title: "Tunes",
      urls: [
-      { "title": "Rdio", "url": "http://www.rdio.com"},
-      { "title": "Songza", "url": "http://www.songza.com"},
-      { "title": "Grooveshark", "url": "http://www.grooveshark.com"},
+      { "title": "Spotify", "url": "http://www.spotify.com"},
       { "title": "Pandora", "url": "http://www.pandora.com"},
-      { "title": "Last.fm", "url": "http://www.last.fm"}
      ]
     },
     { title: "House",
