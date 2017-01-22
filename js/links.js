@@ -52,7 +52,7 @@ function linksModel(){
         {"title": "Macys", "url": "https://www.macys.com/mymacyscard"},
         {"title": "Best Buy", "url": "https://www.accountonline.com/cards/svc/LoginGet.do?siteId=PLCN_BESTBUY"},
         {"title": "BOA AMEX", "url": "http://www.bankofamerica.com"},
-        {"title": "Bank One", "url": "http://www.chase.com/ccp/index.jsp?pg_name=ccpmapp/card_servicing/account_access/page/CCSMktPayBill"}
+        {"title": "Bank One", "url": "http://www.chase.com/ccp/index.jsp?pg_name=ccpmapp/card_servicing/account_access/page/CCSMktPayBill"},
         {"title": "Citizens One", url: "https://citizensoneloan.fdecs.com/eCustService/"}
       ]
     }
